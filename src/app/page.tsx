@@ -50,7 +50,9 @@ export default function Page() {
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-30"
           style={{ backgroundImage: `url('/images/map.png')` }}
-        ></div>
+        >
+          #NoSpendChallenge
+        </div>
         <div className="container relative z-10">
           <ReactWOW animation="fadeInUp" delay="0.1s">
             <div
@@ -58,12 +60,12 @@ export default function Page() {
               data-wow-delay=".1s"
             >
               <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-[56px] mb-5">
-                A better way to connect <br /> with your customers
+                Stop impulsive buying
               </h3>
 
               <p className="text-slate-500 text-lg max-w-xl mx-auto">
-                Gain valuable insights into user behavior and drive
-                data-informed decision-making with our revolutionary platform.
+                Create challenges that will help you on your journey to
+                financial control, avoiding consumerism and impulse buying
               </p>
 
               <div className="mt-6">
@@ -136,15 +138,14 @@ export default function Page() {
               data-wow-delay=".1s"
             >
               <h6 className="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">
-                Features
+                We're not a new finance tracking app.
               </h6>
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">
-                Discover Powerful Features
+                Take back the control of your wallet
               </h4>
 
               <p className="text-slate-400 max-w-xl mx-auto">
-                Unleash the power of our platform with a multitude of powerful
-                features, empowering you to achieve your goals.
+                Change your life style in community and with your own pace
               </p>
             </div>
           </ReactWOW>
