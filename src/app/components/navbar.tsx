@@ -45,20 +45,12 @@ export default function Navbar({
       <div className="container relative flex flex-wrap items-center justify-between">
         {!navLight && (
           <Link className="navbar-brand md:me-8" href="/">
-            <Image
-              src="/images/logo-dark.png"
-              width={121}
-              height={20}
-              className="h-5 inline-block dark:hidden"
-              alt=""
-            />
-            <Image
-              src="/images/logo-light.png"
-              width={121}
-              height={20}
-              className="h-5 hidden dark:inline-block"
-              alt=""
-            />
+            <h2 className="text-xl font-bold inline-block dark:hidden">
+              #<span className="text-red-500">NoSpend</span>Challenge
+            </h2>
+            <h2 className="text-xl font-bold hidden dark:inline-block">
+              #<span className="text-red-500">NoSpend</span>Challenge
+            </h2>
           </Link>
         )}
         {navLight && (

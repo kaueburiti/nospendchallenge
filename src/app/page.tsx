@@ -31,9 +31,7 @@ export default function Page() {
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-30"
           style={{ backgroundImage: `url('/images/map.png')` }}
-        >
-          #NoSpendChallenge
-        </div>
+        />
         <div className="container relative z-10">
           <ReactWOW animation="fadeInUp" delay="0.1s">
             <div
