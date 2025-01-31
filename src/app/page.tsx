@@ -225,13 +225,6 @@ export default function Page() {
         <FaqTwo />
       </section>
 
-      <section
-        className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20"
-        id="download"
-      >
-        <DownloadTwo />
-      </section>
-
       <section className="relative md:py-24 py-16" id="reviews">
         <div className="container relative">
           <ReactWOW animation="fadeInUp">
