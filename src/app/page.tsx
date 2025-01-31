@@ -225,19 +225,6 @@ export default function Page() {
         <FaqTwo />
       </section>
 
-      <section
-        className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20"
-        id="contact"
-      >
-        <ContactTwo />
-      </section>
-
-      <section className="py-6 border-t border-b border-gray-100 dark:border-gray-800">
-        <div className="container relative">
-          <PartnerTwo />
-        </div>
-      </section>
-
       <Footer />
 
       <ScrollToTop />
