@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Manrope } from 'next/font/google'
-import './assets/scss/tailwind.scss'
-import './assets/css/material.css'
+import { Manrope } from "next/font/google";
+import "./assets/scss/tailwind.scss";
+import "./assets/css/material.css";
 
 const manrope = Manrope({
-  subsets: ['latin'],
-  variable: '--font-manrope',
-})
-
+  subsets: ["latin"],
+  variable: "--font-manrope",
+});
 
 export const metadata: Metadata = {
-  title: "Appever - NextJs App Landing Template",
-  description: "Appever - NextJs App Landing Template",
+  title: "#NoSpendChallenge - Stop Impulsive Buying",
+  description:
+    "Create challenges that will help you on your journey to financial control, avoiding consumerism and impulse buying",
 };
 
 export default function RootLayout({

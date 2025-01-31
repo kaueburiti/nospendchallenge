@@ -7,40 +7,21 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import FaqTwo from "./components/faq-two";
 import Switcher from "./components/switcher";
-import ClientTwo from "./components/client-two";
-import PartnerTwo from "./components/partnerTwo";
-import ContactTwo from "./components/contact-two";
-import DownloadTwo from "./components/download-two";
 import ScrollToTop from "./components/scroll-to-top";
-import ScreenshotTwo from "./components/screenshot-two";
 
 import ReactWOW from "react-wow";
 import "animate.css";
 
 import { feature2, feature3 } from "./data/data";
-import { FiAperture, FiShield } from "react-icons/fi";
 
 export default function Page() {
-  let aboutData = [
-    {
-      icon: FiShield,
-      title: "Enhance Security",
-      desc: "There are many variations of passages of Lorem Ipsum available",
-    },
-    {
-      icon: FiAperture,
-      title: "High Performance",
-      desc: "There are many variations of passages of Lorem Ipsum available",
-    },
-  ];
-
   return (
     <>
       <Navbar
         navLight={false}
-        playBtn={true}
-        bgLight={false}
-        navCenter={true}
+        playBtn={false}
+        bgLight={true}
+        navCenter={false}
       />
 
       <section
