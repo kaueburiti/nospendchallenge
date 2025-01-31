@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
+import { Manrope, Outfit } from "next/font/google";
 import "./assets/scss/tailwind.scss";
 import "./assets/css/material.css";
 
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-outfit",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="light scroll-smooth" dir="ltr">
       <body
-        className={` ${manrope.variable} font-manrope text-base text-slate-900 dark:text-white dark:bg-slate-900`}
+        className={` ${manrope.variable} ${outfit.variable} font-manrope text-base text-slate-900 dark:text-white dark:bg-slate-900`}
       >
         {children}
       </body>

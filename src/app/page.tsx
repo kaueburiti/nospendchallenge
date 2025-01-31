@@ -20,7 +20,7 @@ export default function Page() {
       <Navbar
         navLight={false}
         playBtn={false}
-        bgLight={true}
+        bgLight={false}
         navCenter={false}
       />
 
