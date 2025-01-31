@@ -384,34 +384,6 @@ export default function Page() {
         </div>
       </section>
 
-      <section
-        className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20"
-        id="screenshot"
-      >
-        <div className="container relative">
-          <ReactWOW animation="fadeInUp">
-            <div
-              className="grid grid-cols-1 pb-6 text-center wow animate__animated animate__fadeInUp"
-              data-wow-delay=".1s"
-            >
-              <h6 className="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">
-                Screenshots
-              </h6>
-              <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">
-                Simple & Beautiful Interface
-              </h4>
-
-              <p className="text-slate-400 max-w-xl mx-auto">
-                Unleash the power of our platform with a multitude of powerful
-                features, empowering you to achieve your goals.
-              </p>
-            </div>
-          </ReactWOW>
-
-          <ScreenshotTwo />
-        </div>
-      </section>
-
       <section className="relative overflow-hidden md:py-24 py-16" id="faqs">
         <FaqTwo />
       </section>
