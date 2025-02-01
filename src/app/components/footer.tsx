@@ -18,7 +18,9 @@ export default function Footer() {
       <div className="container">
         <div className="grid md:grid-cols-12 items-center">
           <div className="md:col-span-3">
-            <p className="text-white font-extrabold">#NoSpendChallenge</p>
+            <p className="text-white font-extrabold">
+              #<span className="text-red-400">NoSpend</span>Challenge
+            </p>
           </div>
 
           <div className="md:col-span-5 md:mt-0 mt-8">

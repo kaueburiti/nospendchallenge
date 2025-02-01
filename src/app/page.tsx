@@ -28,10 +28,6 @@ export default function Page() {
         className="relative pt-24 xl:pb-[420px] md:pb-80 pb-36 items-center overflow-hidden bg-red-500/5"
         id="home"
       >
-        <div
-          className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-30"
-          style={{ backgroundImage: `url('/images/map.png')` }}
-        />
         <div className="container relative z-10">
           <ReactWOW animation="fadeInUp" delay="0.1s">
             <div
