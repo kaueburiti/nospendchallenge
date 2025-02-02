@@ -28,7 +28,7 @@ export default function Page() {
         className="relative pt-24 xl:pb-[420px] md:pb-80 pb-36 items-center overflow-hidden bg-red-500/5"
         id="home"
       >
-        <div className="container relative z-10">
+        <div className="container relative z-10 mb-2">
           <ReactWOW animation="fadeInUp" delay="0.1s">
             <div
               className="grid grid-cols-1 mt-10 text-center wow animate__animated animate__fadeInUp"
@@ -42,27 +42,6 @@ export default function Page() {
                 Create challenges that will help you on your journey to
                 financial control, avoiding consumerism and impulse buying
               </p>
-
-              <div className="mt-6">
-                <Link href="">
-                  <Image
-                    src="/images/app.png"
-                    width={152}
-                    height={48}
-                    className="h-12 inline-block m-1"
-                    alt=""
-                  />
-                </Link>
-                <Link href="">
-                  <Image
-                    src="/images/play.png"
-                    width={152}
-                    height={48}
-                    className="h-12 inline-block m-1"
-                    alt=""
-                  />
-                </Link>
-              </div>
             </div>
           </ReactWOW>
         </div>
@@ -89,7 +68,7 @@ export default function Page() {
             <div className="relative z-2 duration-500 xl:-mt-[400px] lg:-mt-[320px] md:-mt-[350px] -mt-[140px] m-0">
               <ReactWOW animation="bounceIn" delay="0.7s">
                 <Image
-                  src="/images/phone/2-phone.png"
+                  src="/images/phone/mock-double.png"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -99,7 +78,6 @@ export default function Page() {
                   alt=""
                 />
               </ReactWOW>
-              <div className="absolute overflow-hidden lg:size-[600px] md:size-[450px] sm:size-[400px] size-[320px] bg-gradient-to-tl to-red-500/20 via-red-500/70 from-red-500 bottom-0 translate-x-1/2 start-1/2 ltr:-translate-x-1/2 rtl:md:translate-x-0 rtl:translate-x-1/2 z-1 shadow-md shadow-red-500/10 rounded-full"></div>
             </div>
           </div>
         </div>
@@ -155,7 +133,7 @@ export default function Page() {
             <div className="lg:col-span-4 md:col-span-12 lg:mx-4 lg:order-2 order-1">
               <ReactWOW animation="zoomIn">
                 <Image
-                  src="/images/phone/1.png"
+                  src="/images/phone/mock-home.png"
                   width={0}
                   height={0}
                   sizes="100vw"
