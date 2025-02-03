@@ -32,11 +32,7 @@ export default function FaqTwo() {
           <div className="relative">
             <ReactWOW animation="zoomIn">
               <Image
-<<<<<<< HEAD
-                src="/images/phone/mock-report.png"
-=======
                 src="/images/phone/2.png"
->>>>>>> feat/add-faqs
                 width={0}
                 height={0}
                 sizes="100vw"
