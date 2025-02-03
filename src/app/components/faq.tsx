@@ -62,12 +62,12 @@ export default function Faq() {
               <div className="flex items-center justify-center size-[65px] bg-red-500/5 text-red-500 text-center rounded-full me-3">
                 <FiDownload className="size-6" />
               </div>
-              <div className="flex-1">
+              {/* <div className="flex-1">
                 <h6 className="text-slate-400">Total Users</h6>
                 <p className="text-xl font-bold">
                   <CountUp className="counter-value" end={45485} />
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

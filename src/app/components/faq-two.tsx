@@ -32,7 +32,7 @@ export default function FaqTwo() {
           <div className="relative">
             <ReactWOW animation="zoomIn">
               <Image
-                src="/images/phone/2.png"
+                src="/images/phone/mock-report.png"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -66,7 +66,7 @@ export default function FaqTwo() {
           </div>
           <div className="overflow-hidden absolute md:size-[500px] size-[400px] bg-gradient-to-tr to-red-500/20 via-red-500/70 from-red-500 bottom-1/2 translate-y-1/2 md:end-0 end-1/2 md:translate-x-0 translate-x-1/2 -z-1 shadow-md shadow-red-500/10 rounded-full"></div>
 
-          <div
+          {/* <div
             className="absolute bottom-28 md:start-0 -start-5 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-52 m-3 wow animate__animated animate__bounceIn"
             data-wow-delay=".7s"
           >
@@ -81,7 +81,7 @@ export default function FaqTwo() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="lg:me-8 order-2 md:order-1">
