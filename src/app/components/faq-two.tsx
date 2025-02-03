@@ -96,10 +96,6 @@ export default function FaqTwo() {
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">
                 Have Questions? Look Here
               </h4>
-              <p className="text-slate-400 max-w-xl mx-auto">
-                Unleash the power of our platform with a multitude of powerful
-                features, empowering you to achieve your goals.
-              </p>
             </div>
           </ReactWOW>
 
