@@ -32,7 +32,11 @@ export default function FaqTwo() {
           <div className="relative">
             <ReactWOW animation="zoomIn">
               <Image
+<<<<<<< HEAD
                 src="/images/phone/mock-report.png"
+=======
+                src="/images/phone/2.png"
+>>>>>>> feat/add-faqs
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -142,19 +146,6 @@ export default function FaqTwo() {
               );
             })}
           </div>
-          <ReactWOW animation="fadeInUp">
-            <div
-              className="mt-6 wow animate__animated animate__fadeInUp"
-              data-wow-delay="1.1s"
-            >
-              <Link
-                href="#"
-                className="hover:text-red-500 dark:hover:text-red-500 after:bg-red-500 dark:text-white transition duration-500 font-medium"
-              >
-                Find Out More <i className="mdi mdi-arrow-right"></i>
-              </Link>
-            </div>
-          </ReactWOW>
         </div>
       </div>
     </div>
