@@ -13,8 +13,9 @@ import ReactWOW from "react-wow";
 import "animate.css";
 
 import { feature2, feature3 } from "./data/data";
+import LeadForm from "./components/lead-form";
 
-export default function Page() {
+export default async function Page() {
   return (
     <>
       <Navbar
@@ -38,10 +39,12 @@ export default function Page() {
                 Stop impulsive buying
               </h3>
 
-              <p className="text-slate-500 text-lg max-w-xl mx-auto">
+              <p className="text-slate-500 text-lg max-w-xl mx-auto mb-4">
                 Create challenges that will help you on your journey to
                 financial control, avoiding consumerism and impulse buying
               </p>
+
+              <LeadForm />
             </div>
           </ReactWOW>
         </div>
