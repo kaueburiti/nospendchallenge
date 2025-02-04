@@ -75,7 +75,6 @@ export default async function Page() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: "100%", height: "auto" }}
                   className="mx-auto w-80 md:w-96 lg:w-[500px] relative z-2 wow animate__animated animate__bounceIn"
                   data-wow-delay=".7s"
                   alt=""
@@ -140,8 +139,7 @@ export default async function Page() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: "100%", height: "auto" }}
-                  className="mx-auto wow animate__animated animate__zoomIn"
+                  className="mx-auto wow animate__animated animate__zoomIn max-h-[620px] lg:max-h-max lg:max-h-auto w-auto"
                   data-wow-delay=".7s"
                   alt=""
                 />

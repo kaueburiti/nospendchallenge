@@ -51,7 +51,7 @@ export default function LeadForm() {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6 w-full">
+    <div id="waitlist-form" className="max-w-lg mx-auto p-6 w-full">
       {status.type && (
         <div
           className={`p-4 mb-4 rounded ${

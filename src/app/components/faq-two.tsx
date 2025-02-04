@@ -36,8 +36,7 @@ export default function FaqTwo() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: "100%" }}
-                className="mx-auto md:max-w-xs lg:max-w-sm wow animate__animated animate__zoomIn"
+                className="mx-auto md:max-w-xs lg:max-w-sm wow animate__animated animate__zoomIn max-h-[520px] lg:max-h-max lg:max-h-auto w-auto"
                 alt=""
                 data-wow-delay=".7s"
               />

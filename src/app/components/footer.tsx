@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="py-8 bg-slate-800 dark:bg-gray-900">
       <div className="container">
         <div className="grid md:grid-cols-12 items-center">
-          <div className="md:col-span-3">
+          <div className="text-center md:text-left md:col-span-3">
             <p className="text-white font-extrabold">
               #<span className="text-red-400">NoSpend</span>Challenge
             </p>

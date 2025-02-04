@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { Link as Link1 } from "react-scroll";
 
-import { FiUser } from "react-icons/fi";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -86,10 +85,10 @@ export default function Navbar({
             <ul className="list-none menu-social mb-0">
               <li className="inline">
                 <Link
-                  href=""
-                  className="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-full bg-red-500 text-white uppercase"
+                  href="#waitlist-form"
+                  className="h-8 px-4 text-[10px] lg:text-sm tracking-wider inline-flex items-center justify-center font-medium rounded-full bg-red-500 text-white"
                 >
-                  Joing the Waitlist
+                  Join Waitlist
                 </Link>
               </li>
             </ul>
@@ -125,14 +124,6 @@ export default function Navbar({
               </li>
             </ul>
           )}
-          <button
-            type="button"
-            className="collapse-btn inline-flex items-center ms-2 text-slate-900 dark:text-white lg_992:hidden"
-            onClick={() => setMenu(!menu)}
-          >
-            <span className="sr-only">Navigation Menu</span>
-            <i className="mdi mdi-menu text-[24px]"></i>
-          </button>
         </div>
 
         <div
