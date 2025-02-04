@@ -182,8 +182,6 @@ export default async function Page() {
       <Footer />
 
       <ScrollToTop />
-
-      <Switcher />
     </>
   );
 }
