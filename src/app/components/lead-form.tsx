@@ -5,7 +5,7 @@ import supabase from "../lib/supabase";
 import { Resend } from "resend";
 import { NoSpendChallengeWelcomeEmail } from "./email/welcome";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend("re_9o6pPfut_ESpk72ManyrSHGxZsQyPs2sF");
 
 export default function LeadForm() {
   const [email, setEmail] = useState("");
