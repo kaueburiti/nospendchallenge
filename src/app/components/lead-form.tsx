@@ -2,10 +2,6 @@
 
 import { useState } from "react";
 import supabase from "../lib/supabase";
-import { Resend } from "resend";
-import { NoSpendChallengeWelcomeEmail } from "./email/welcome";
-
-const resend = new Resend("re_9o6pPfut_ESpk72ManyrSHGxZsQyPs2sF");
 
 export default function LeadForm() {
   const [email, setEmail] = useState("");
@@ -38,17 +34,15 @@ export default function LeadForm() {
 
       if (error) throw error;
 
+      await fetch("/api/send", {
+        method: "POST",
+        body: JSON.stringify({ email }),
+      });
+
       setStatus({
         type: "success",
         message:
           "Thank you for joining our waitlist! We'll be in touch soon 🥳",
-      });
-
-      await resend.emails.send({
-        from: "Débora Buriti <debora@nospendchallenge.app>",
-        to: [email],
-        subject: "Welcome to the #NoSpendChallenge",
-        react: NoSpendChallengeWelcomeEmail(),
       });
 
       setEmail("");
