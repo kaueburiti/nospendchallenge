@@ -1,12 +1,9 @@
 import {
   Body,
-  Button,
   Container,
   Head,
   Heading,
-  Hr,
   Html,
-  Img,
   Link,
   Preview,
   Section,
@@ -64,9 +61,6 @@ const signature = {
   color: "#525f7f",
   marginTop: "-20px",
 };
-const highlight = {
-  color: "#EF4444",
-};
 
 const heading = {
   color: "#525f7f",
@@ -92,38 +86,13 @@ const box = {
   padding: "0 48px",
 };
 
-const hr = {
-  borderColor: "#e6ebf1",
-  margin: "20px 0",
-};
-
 const paragraph = {
   color: "#525f7f",
 
   fontSize: "16px",
   lineHeight: "24px",
-  textAlign: "left",
 };
 
 const anchor = {
   color: "#EF4444",
-};
-
-const button = {
-  backgroundColor: "#EF4444",
-  borderRadius: "5px",
-  color: "#fff",
-  fontSize: "16px",
-  fontWeight: "bold",
-  textDecoration: "none",
-  textAlign: "center",
-  display: "block",
-  width: "100%",
-  padding: "10px",
-};
-
-const footer = {
-  color: "#8898aa",
-  fontSize: "12px",
-  lineHeight: "16px",
 };
