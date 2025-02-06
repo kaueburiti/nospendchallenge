@@ -22,25 +22,35 @@ export const NoSpendChallengeWelcomeEmail = () => (
       <Container style={container}>
         <Section style={box}>
           <Heading style={heading}>#NoSpendChallenge</Heading>
-          <Hr style={hr} />
           <Text style={paragraph}>
-            Thank you for joining the #NoSpendChallenge! Let's stop impulsive
-            consumption and save some money 🎉
-          </Text>
-          <Text style={paragraph}>
-            We're excited to have you on our waitlist! In the next few weeks,
-            we'll keep you updated on our progress and let you know as soon as
-            the app launches.
-          </Text>
-          <Hr style={hr} />
-          <Text style={paragraph}>
-            If you have a friend that struggles with impulsive consumption,
-            please share our community with them, he can also join the{" "}
+            Hi 👋
+            <br />
+            We're thrilled to have you on board and we're excited to introduce
+            you to the{" "}
             <Link style={anchor} href="https://nospendchallenge.app">
               #NoSpendChallenge
             </Link>
-            !
           </Text>
+          <Text style={paragraph}>
+            Our mission is simple: To help you take charge of your financial
+            health by controlling impulsive buying.
+          </Text>
+          <Text style={paragraph}>
+            Stay tuned for exclusive updates and early access opportunities. We
+            invite you to share our{" "}
+            <Link style={anchor} href="https://nospendchallenge.app">
+              landing page
+            </Link>{" "}
+            with others - the more, the merrier!
+          </Text>
+
+          <Text style={paragraph}>
+            Bests,
+            <br />
+            Débora Buriti
+            <br />
+          </Text>
+          <Text style={signature}>#NoSpendChallenge Founder</Text>
         </Section>
       </Container>
     </Body>
@@ -49,14 +59,24 @@ export const NoSpendChallengeWelcomeEmail = () => (
 
 export default NoSpendChallengeWelcomeEmail;
 
-const heading = {
+const signature = {
+  fontSize: "12px",
+  color: "#525f7f",
+  marginTop: "-20px",
+};
+const highlight = {
   color: "#EF4444",
+};
+
+const heading = {
+  color: "#525f7f",
   fontSize: "24px",
   fontWeight: "bold",
 };
 
 const main = {
-  backgroundColor: "#f6f9fc",
+  backgroundColor: "#e6edf5",
+  padding: "40px 0",
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
 };
@@ -65,7 +85,7 @@ const container = {
   backgroundColor: "#ffffff",
   margin: "0 auto",
   padding: "20px 0 48px",
-  marginBottom: "64px",
+  borderRadius: "12px",
 };
 
 const box = {
@@ -82,7 +102,7 @@ const paragraph = {
 
   fontSize: "16px",
   lineHeight: "24px",
-  textAlign: "left" as const,
+  textAlign: "left",
 };
 
 const anchor = {
@@ -96,7 +116,7 @@ const button = {
   fontSize: "16px",
   fontWeight: "bold",
   textDecoration: "none",
-  textAlign: "center" as const,
+  textAlign: "center",
   display: "block",
   width: "100%",
   padding: "10px",
