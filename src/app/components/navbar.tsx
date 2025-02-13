@@ -88,7 +88,7 @@ export default function Navbar({
                   href="#waitlist-form"
                   className="h-8 px-4 text-[10px] lg:text-sm tracking-wider inline-flex items-center justify-center font-medium rounded-full bg-red-500 text-white"
                 >
-                  Join Waitlist
+                  Get early access
                 </Link>
               </li>
             </ul>

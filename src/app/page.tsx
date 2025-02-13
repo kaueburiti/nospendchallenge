@@ -175,8 +175,18 @@ export default async function Page() {
 
       <section className="relative overflow-hidden md:py-24 py-16" id="faqs">
         <FaqTwo />
+        
       </section>
-
+      <div className="mx-auto text-center mb-16">
+        <h6 
+            className="text-red-500 uppercase text-sm font-bold tracking-wider mt-6 ">
+           Own Your Wallet, Own Your Future
+        </h6>
+     
+      <LeadForm /> 
+          
+      </div>
+           
       <Footer />
 
       <ScrollToTop />
