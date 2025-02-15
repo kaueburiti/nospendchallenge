@@ -73,7 +73,7 @@ export default function LeadForm() {
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="email" className="block text-sm font-bold mb-2">
-            Join our waitlist and get early access to the app!
+          Early Access Awaits! Sign Up for Exclusive Perks!
           </label>
           <div className="relative mt-1 flex">
             <input
@@ -96,7 +96,7 @@ export default function LeadForm() {
                        focus:ring-blue-500 text-sm
                        ${isSubmitting ? "opacity-50 cursor-not-allowed" : ""}`}
             >
-              {isSubmitting ? "Submitting..." : "Join our waitlist!"}
+              {isSubmitting ? "Submitting..." : "Get early access"}
             </button>
           </div>
         </div>
