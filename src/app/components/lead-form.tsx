@@ -73,7 +73,7 @@ export default function LeadForm() {
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="email" className="block text-sm font-bold mb-2">
-            Early Access Awaits! Sign Up for Exclusive Perks!
+           Early Access Awaits! Sign Up for Exclusive Perks!
           </label>
           <div className="relative mt-1 flex">
             <input

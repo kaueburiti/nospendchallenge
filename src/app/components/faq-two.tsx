@@ -118,6 +118,7 @@ export default function FaqTwo() {
                           : ""
                       }`}
                     >
+                      
                       <span>{item.title}</span>
                       <FiChevronUp
                         className={`size-4 shrink-0 ${
