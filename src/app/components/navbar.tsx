@@ -172,6 +172,12 @@ export default function Navbar({
                 FAQs
               </Link1>
             </li>
+
+            <li className="nav-item ms-0">
+              <Link href="/terms" className="nav-link">
+                Terms of Service
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
