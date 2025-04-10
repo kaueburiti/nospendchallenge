@@ -15,18 +15,22 @@ export default function Blog() {
 				navCenter={false}
 			/>
 			<section
-				className='relative pt-24 xl:pb-[420px] md:pb-80 pb-36 items-center overflow-hidden bg-red-500/5'
+				className='relative pt-36 xl:pb-[420px] md:pb-80 pb-36 items-center overflow-hidden bg-red-500/5'
 				id='home'
 			>
-				<h1>All post</h1>
+				<div className='container relative z-10 mb-2'>
+					<h1 className='text-red-500 uppercase text-lg font-bold tracking-wider mb-3 pb-10'>
+						We hope these posts can help you!
+					</h1>
 
-				<ul>
-					{posts.map((post) => (
-						<li>
-							<Link href={`/blog${post.slug}`}>{post.title}</Link>
-						</li>
-					))}
-				</ul>
+					<ul>
+						{posts.map((post) => (
+							<li className='text-slate-400 mt-3 hover:bg-slate-100 rounded-sm'>
+								<Link href={`/blog/${post.slug}`}>#{post.title}</Link>
+							</li>
+						))}
+					</ul>
+				</div>
 			</section>
 			<Footer />
 			<ScrollToTop />
