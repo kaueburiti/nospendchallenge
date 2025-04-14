@@ -1,6 +1,11 @@
 ---
 title: 'What is Conscious Consumption and How It Can Transform Your Financial Life'
+description: 'Have you ever stopped to think about how your spending habits are affecting your wallet and harming your financial—and even psychological—health? Conscious consumption is an alternative that can change your financial life. It’s much more than a trend; it’s a transformation in how we view and value our hard-earned money.'
+time: '5 minutes'
+image: https://plus.unsplash.com/premium_photo-1713820010572-b8c4b2ecbd55?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
+
+![Spending Image](https://plus.unsplash.com/premium_photo-1713820010572-b8c4b2ecbd55?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 # What is Conscious Consumption and How It Can Transform Your Financial Life
 

@@ -1,6 +1,11 @@
 ---
 title: 'Impulse Buying: How to Tell the Difference Between Needs and Wants'
+description: 'Have you ever bought something you did not need just because it was on sale, or because you felt you deserved it after a particularly stressful or sad day? If you answered yes, you might be part of the group of people who have given in to impulse purchases.'
+time: '3 minutes'
+image: https://images.unsplash.com/photo-1604367463683-66ec57df6cdc?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
+
+![Spending Image](https://images.unsplash.com/photo-1604367463683-66ec57df6cdc?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 # Impulse Buying: How to Tell the Difference Between Needs and Wants
 

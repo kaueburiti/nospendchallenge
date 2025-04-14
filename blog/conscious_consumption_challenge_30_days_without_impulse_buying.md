@@ -1,6 +1,11 @@
 ---
 title: 'Conscious Consumption Challenge: 30 Days Without Impulse Buying'
+description: 'Have you ever stopped to think about how much of your money is spent on impulse purchases? Often, we buy things without really needing them, driven by habit, emotion, or simple convenience. The problem is that these small purchases can add up and impact our budget, mental health, and even the environment. If you want to change your relationship with consumption, we have an invitation for you: the Conscious Consumption Challenge – 30 Days Without Impulse Buying!'
+time: '4 minutes'
+image: https://images.unsplash.com/photo-1613170684302-20f3c0f5a506?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
+
+![Spending Image](https://images.unsplash.com/photo-1613170684302-20f3c0f5a506?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 # Conscious Consumption Challenge: 30 Days Without Impulse Buying
 
