@@ -12,6 +12,9 @@ export default function getPostMetadata(basePath) {
 		return {
 			title: matterResult.data.title,
 			slug: filename.replace('.md', ''),
+			description: matterResult.data.description,
+			image: matterResult.data.image,
+			time: matterResult.data.time,
 		};
 	});
 
