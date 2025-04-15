@@ -58,7 +58,7 @@ export const feature2 = [
 export const feature3 = [
 	{
 		icon: FiList,
-		title: 'Create a whislist',
+		title: 'Create a whishlist',
 		desc: 'Checking off items from your wishilist sparks joy and fuels your motivation.',
 	},
 	{
