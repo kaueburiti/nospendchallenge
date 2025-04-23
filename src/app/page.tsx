@@ -17,7 +17,7 @@ export const metadata = {
 	description:
 		'Join the No Spend Challenge and learn how to save money effectively. Take control of your finances today!',
 	alternates: {
-		canonical: 'https://nospendchallenge.app/',
+		canonical: 'https://nospendchallenge.app/blog',
 	},
 };
 
