@@ -29,6 +29,17 @@ export default function Post(props) {
 	const post = getPostContent(slug);
 	return (
 		<>
+			<Head>
+				<title>{post.title} - Your Website Name</title>
+				<meta
+					name='description'
+					content={post.description || 'Default description for the post.'}
+				/>
+				<link
+					rel='canonical'
+					href={`https://nospendchallenge.app/blog/${slug}`}
+				/>
+			</Head>
 			<Navbar
 				navLight={false}
 				playBtn={false}

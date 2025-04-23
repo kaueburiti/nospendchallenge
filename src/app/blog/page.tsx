@@ -5,11 +5,20 @@ import Footer from '../components/footer';
 import ScrollToTop from '../components/scroll-to-top';
 import Image from 'next/image';
 import { FaClock } from 'react-icons/fa';
+import Head from 'next/head';
 
 export default function Blog() {
 	const posts = getPostMetadata('blog');
 	return (
 		<>
+			<Head>
+				<title>Blog - Spending and Saving Tips</title>
+				<meta
+					name='description'
+					content='Explore our blog for the best spending and saving tips to manage your finances effectively.'
+				/>
+				<link rel='canonical' href='https://yourwebsite.com/blog' />
+			</Head>
 			<Navbar
 				navLight={false}
 				playBtn={false}
