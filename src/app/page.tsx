@@ -15,9 +15,9 @@ import LandingPageContent from './components/landing/content';
 export const metadata = {
 	title: '#NoSpendChallenge - Stop Impulsive Buying',
 	description:
-		'Join the No Spend Challenge and learn how to save money effectively. Take control of your finances today!',
+		'Join the #NoSpendChallenge and learn how to save money effectively. Take control of your finances today!',
 	alternates: {
-		canonical: 'https://nospendchallenge.app/blog',
+		canonical: 'https://nospendchallenge.app',
 	},
 };
 
