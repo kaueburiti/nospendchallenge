@@ -1,11 +1,11 @@
 ---
 title: '10 Signs You’re an Impulsive Shopper (and how to change that)'
-description: 'Have you ever found yourself buying something you didn’t need just because it was on sale, only to later wonder why you did it? If so, you’re not alone. This behavior is more common than you might think. Many people, especially women, fall into the trap of impulsive shopping every day without realizing the financial and emotional toll it can take. Social media, sales promotions, and even difficulties in managing emotions can lead you to spend more than planned. These small purchases may seem harmless at first, but by the end of the month, they can hurt your budget and leave you stuck with unexpected debt.'
+description: 'Have you ever found yourself buying something you didn’t need just because it was on sale, only to later wonder why you did it? If so, you’re not alone. This behavior is more common than you might think. Many people, especially women, fall into the trap of impulsive shopping every day without realizing the financial and emotional toll it can take. Social media, sales promotions, and even difficulties in managing emotions can lead you to spend more than planned.'
 time: '5 minutes'
-image: https://plus.unsplash.com/premium_photo-1713586578997-dd4efae417a1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: https://plus.unsplash.com/premium_photo-1713586580107-d9ac491ddee7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
-![Spending Image](https://plus.unsplash.com/premium_photo-1713586578997-dd4efae417a1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Spending Image](https://plus.unsplash.com/premium_photo-1713586580107-d9ac491ddee7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 # 10 Signs You’re an Impulsive Shopper (and how to change that)
 
