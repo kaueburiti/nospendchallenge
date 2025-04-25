@@ -184,6 +184,73 @@ export default async function LandingPageContent() {
           </div>
         </div>
       </section>
+
+      <section className="relative py-16 bg-gray-50 dark:bg-slate-800">
+        <div className=" relative max-w-[620px] mx-auto text-center px-2">
+          <ReactWOW animation="fadeInRight">
+            <div className="w-full wow animate__animated animate__fadeInRight">
+              <h3 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-bold">
+                Ready to Take Control of Your Spending?
+              </h3>
+
+              <p className="text-slate-400 mb-6">
+                Join our community of people who are breaking free from
+                impulsive buying habits and achieving their financial goals with
+                #NoSpendChallenge. Download the app today and start your journey
+                to financial freedom.
+              </p>
+
+              <div className="flex justify-center">
+                <a
+                  href="https://apps.apple.com/us/app/nospendchallenge/id6744117715"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn bg-red-500 hover:bg-red-600 text-white rounded-full px-6 py-3 inline-flex items-center"
+                >
+                  <svg
+                    className="w-5 h-5 me-2"
+                    viewBox="0 0 384 512"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                  </svg>
+                  Download iOS App
+                </a>
+              </div>
+
+              {/* <div className="mt-8 flex items-center">
+                    <div className="flex -space-x-2">
+                      {Array(5)
+                        .fill("")
+                        .map((_, i) => (
+                          <div
+                            key={i}
+                            className={`inline-block size-10 rounded-full border-2 border-white dark:border-slate-800 overflow-hidden bg-${["red", "blue", "green", "purple", "yellow"][i]}-100`}
+                          >
+                            <Image
+                              src={`/images/users/avatar-${i + 1}.jpg`}
+                              width={40}
+                              height={40}
+                              className="h-full w-full object-cover"
+                              alt="User"
+                              onError={(e) => {
+                                (e.target as HTMLImageElement).style.display =
+                                  "none";
+                              }}
+                            />
+                          </div>
+                        ))}
+                    </div>
+                    <p className="ms-3 text-slate-400">
+                      <span className="text-red-500 font-semibold">5000+</span>{" "}
+                      happy users are already saving!
+                    </p>
+                  </div> */}
+            </div>
+          </ReactWOW>
+        </div>
+      </section>
     </>
   );
 }
