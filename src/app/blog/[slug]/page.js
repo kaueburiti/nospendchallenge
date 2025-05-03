@@ -36,7 +36,7 @@ export default function Post(props) {
 				navCenter={false}
 			/>
 			<main
-				className='relative pt-36 xl:pb-[420px] md:pb-80 pb-36 items-center overflow-hidden bg-red-500/5'
+				className='relative pt-36 xl:pb-[420px] md:pb-80 pb-36 items-center overflow-hidden bg-red-500/5 xl:text-start text-center xl:px-0 px-6'
 				id='home'
 			>
 				<div className='container relative z-10 mb-2'>
